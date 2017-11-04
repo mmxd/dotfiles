@@ -16,7 +16,8 @@
             "~/.tmux.conf.local": "tmux.conf.local",
             "~/.vim": "vim",
             "~/.vimrc": "vimrc",
-            "~/.gitconfig": "gitconfig"
+            "~/.gitconfig": "gitconfig",
+            "~/.zshrc": "zshrc"
         }
     },
     {
