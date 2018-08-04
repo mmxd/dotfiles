@@ -63,6 +63,10 @@ plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
+# autojump plugin
+[[ -s /root/.autojump/etc/profile.d/autojump.sh ]] && source /root/.autojump/etc/profile.d/autojump.sh
+# autoload -U compinit && compinit -u
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -92,5 +96,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+setopt HIST_IGNORE_DUPS
+
 export TERM="putty-256color"
 export LC_ALL="en_US.UTF-8"
+export EDITOR="vim" # enable vi-style key bindings for tmux

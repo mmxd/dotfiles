@@ -10,3 +10,6 @@
 [submodule "oh-my-tmux"]
 	path = oh-my-tmux
 	url = https://github.com/mmxd/.tmux.git
+[submodule "autojump"]
+	path = autojump
+	url = https://github.com/wting/autojump
